@@ -41,3 +41,4 @@ Partilha de conteúdos musicais por NFC: O sistema deve permitir partilhar refer
 Abertura de conteúdo partilhado: O sistema deve permitir abrir no SoundCheck o perfil ou conteúdo associado a um link recebido, quando a aplicação estiver instalada e o link for compatível.
 Leitura de código de barras: O sistema deve permitir utilizar a câmara do dispositivo para ler o código de barras de um álbum físico.
 Identificação de álbum: O sistema deve procurar um álbum ou edição correspondente ao código de barras lido e apresentar os resultados encontrados.
+Identificação de músicas por áudio: O sistema deve permitir ao utilizador identificar uma música que esteja a tocar nas proximidades através do microfone do dispositivo e consultar a informação correspondente no SoundCheck, quando for encontrada uma correspondência.
