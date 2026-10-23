@@ -1,0 +1,42 @@
+Gestão de utilizadores
+RF01 — Registo: O sistema deve permitir que um utilizador crie uma conta.
+RF02 — Login: O sistema deve permitir que um utilizador inicie sessão com as suas credenciais.
+RF03 — Logout: O sistema deve permitir que um utilizador termine a sessão.
+RF04 — Recuperação de palavra-passe: O sistema deve permitir que um utilizador recupere o acesso à sua conta.
+RF05 — Consulta de perfil: O sistema deve permitir que um utilizador consulte o seu perfil e as reviews publicadas.
+RF06 — Edição de perfil: O sistema deve permitir que um utilizador altere as informações editáveis do seu perfil.
+
+Pesquisa e consulta de conteúdos
+RF07 — Pesquisa de artistas: O sistema deve permitir pesquisar artistas pelo nome.
+RF08 — Pesquisa de álbuns: O sistema deve permitir pesquisar álbuns pelo título.
+RF09 — Pesquisa de músicas: O sistema deve permitir pesquisar músicas pelo título.
+RF10 — Pesquisa de utilizadores: O sistema deve permitir pesquisar outros utilizadores pelo nome de utilizador ou nome de apresentação.
+RF11 — Consulta de detalhes: O sistema deve apresentar os detalhes disponíveis de um artista, álbum ou música selecionados.
+RF12 — Consulta de discografia: O sistema deve permitir consultar os álbuns e as músicas associados a um artista, quando essa informação estiver disponível.
+RF13 — Consulta de resultados: O sistema deve apresentar os resultados das pesquisas com informação identificativa, como o nome, o artista associado e a capa, quando disponível.
+
+Reviews e avaliações
+RF14 — Criação de review: O sistema deve permitir que um utilizador autenticado publique uma review de um artista, álbum ou música.
+RF15 — Classificação de conteúdos: O sistema deve permitir que um utilizador atribua uma classificação numérica a um conteúdo musical.
+RF16 — Consulta de reviews: O sistema deve permitir consultar as reviews publicadas por outros utilizadores sobre um conteúdo.
+RF17 — Edição de review: O sistema deve permitir que um utilizador edite as suas próprias reviews.
+RF18 — Eliminação de review: O sistema deve permitir que um utilizador elimine as suas próprias reviews.
+RF19 — Classificação média: O sistema deve apresentar a classificação média de um conteúdo, quando existirem avaliações numéricas.
+RF20 — Histórico de reviews: O sistema deve permitir que um utilizador consulte as reviews que publicou anteriormente.
+
+Recomendações e descoberta musical
+RF21 — Recomendações personalizadas: O sistema deve recomendar conteúdos musicais com base nas avaliações anteriores do utilizador.
+RF22 — Consulta de recomendações: O sistema deve disponibilizar uma secção onde o utilizador possa consultar os conteúdos recomendados.
+RF23 — Exploração de conteúdos populares: O sistema deve permitir descobrir conteúdos populares ou com classificações elevadas.
+
+Integração com plataformas de streaming
+RF24 — Acesso a plataformas de streaming: O sistema deve permitir abrir um artista, álbum ou música num serviço de streaming através de um link associado ao conteúdo.
+RF25 — Consulta de plataformas disponíveis: O sistema deve apresentar as plataformas de streaming disponíveis para um conteúdo, quando existirem links correspondentes.
+RF26 — Reprodução de excertos: O sistema deve permitir ouvir excertos de músicas dentro da aplicação, quando estes estiverem disponíveis e forem suportados pelo serviço integrado.
+
+Utilizações Hardware
+RF27 — Partilha de perfil por NFC: O sistema deve permitir partilhar o link de um perfil de utilizador com outro dispositivo compatível através de NFC.
+RF28 — Partilha de conteúdos musicais por NFC: O sistema deve permitir partilhar referências ou links de artistas, álbuns e músicas através de NFC.
+RF29 — Abertura de conteúdo partilhado: O sistema deve permitir abrir no SoundCheck o perfil ou conteúdo associado a um link recebido, quando a aplicação estiver instalada e o link for compatível.
+RF30 — Leitura de código de barras: O sistema deve permitir utilizar a câmara do dispositivo para ler o código de barras de um álbum físico.
+RF31 — Identificação de álbum: O sistema deve procurar um álbum ou edição correspondente ao código de barras lido e apresentar os resultados encontrados.
