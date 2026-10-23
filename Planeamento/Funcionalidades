@@ -1,0 +1,25 @@
+F1 — Pesquisa de conteúdo musical
+O utilizador pode procurar artistas, álbuns e músicas através de uma barra de pesquisa. Os resultados devem apresentar informação básica, como o nome, o artista associado e a capa, quando disponível.
+
+
+F2 — Autenticação
+O utilizador pode criar uma conta, iniciar sessão e terminar sessão. As funcionalidades de reviews ficam disponíveis apenas depois de iniciar sessão.
+
+
+F3 — Criação de reviews
+Um utilizador autenticado pode avaliar um artista, álbum ou música e escrever uma opinião. Convém definirem desde já se a avaliação inclui uma classificação numérica, texto, ou ambos.
+
+
+F4 — Consulta de detalhes
+Ao selecionar um resultado, o utilizador pode consultar a descrição e as características disponíveis do artista, álbum ou música. Por exemplo, género musical, data de lançamento, duração, lista de faixas e artistas associados, conforme os dados fornecidos pela API.
+
+
+F5 — Acesso às plataformas de streaming
+A partir da página de detalhes, o utilizador pode abrir o artista, álbum ou música na plataforma de streaming correspondente. Idealmente, a aplicação apresenta as plataformas disponíveis e abre o respetivo link.
+
+
+F6 — Pesquisa de álbuns por código de barras
+O utilizador aponta a câmara para o código de barras de um álbum físico. A aplicação lê o código com o ML Kit e procura uma edição correspondente numa base de dados musical, como o MusicBrainz.
+
+F7 — Partilha de conteúdos por NFC
+O utilizador escolhe a opção de partilha por proximidade e a aplicação gera um link NFC para partilhar o conteúdo

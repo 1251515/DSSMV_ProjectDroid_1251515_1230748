@@ -1,0 +1,7 @@
+Firebase: autenticação e armazenamento de reviews.
+MusicBrainz: pesquisa e identificação de artistas, álbuns e músicas.
+Cover Art Archive: capas dos álbuns.
+ML Kit: leitura de códigos de barras.
+Deezer API: metadados complementares, links e tentativa de disponibilizar excertos de músicas.
+Last.fm API: obtenção de informação complementar sobre artistas, álbuns e músicas, incluindo tags e popularidade.
+Odesli (Songlink): obtenção de links para o mesmo conteúdo musical em diferentes plataformas de streaming.
