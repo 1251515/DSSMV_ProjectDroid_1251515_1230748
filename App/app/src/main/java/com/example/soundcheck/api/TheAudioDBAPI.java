@@ -100,7 +100,7 @@ public class TheAudioDBAPI {
     }
 
 
-    public void obtainTopTracks (Artist artist) throws IOException {
+    public void obtainTopTracks (Artist artist) throws IOException {    //limitado a 1 faixa devido à versão premium
 
         String artistID = artist.getId();
 

@@ -18,76 +18,74 @@ public class TheAudioDBTest {
                                 Artist artist,
                                 Album album) {
 
-        new Thread(() -> {
+        Log.d(TAG, "runTests foi chamado!");
 
-            try {
+        try {
 
-                // TESTE 1 - ARTIST METADATA
-                Log.d(TAG, "===== TESTE ARTIST METADATA =====");
+            // TESTE 1 - ARTIST METADATA
+            Log.d(TAG, "===== TESTE ARTIST METADATA =====");
 
-                api.obtainArtistMetaData(artist);
+            api.obtainArtistMetaData(artist);
 
-                Log.d(TAG, "Artist ID: " + artist.getId());
-                Log.d(TAG, "Description: " +
-                        artist.getArtistDescription());
-                Log.d(TAG, "Photo: " +
-                        artist.getArtistPfpURL());
-
-
-                // TESTE 2 - ALBUM METADATA
-                Log.d(TAG, "===== TESTE ALBUM METADATA =====");
-
-                api.obtainAlbumMetaData(album);
-
-                Log.d(TAG, "Album ID: " + album.getAlbumID());
-                Log.d(TAG, "Description: " +
-                        album.getAlbumDescription());
-                Log.d(TAG, "Cover: " +
-                        album.getCoverURL());
+            Log.d(TAG, "Artist ID: " + artist.getId());
+            Log.d(TAG, "Description: " +
+                    artist.getArtistDescription());
+            Log.d(TAG, "Photo: " +
+                    artist.getArtistPfpURL());
 
 
-                // TESTE 3 - TOP TRACKS
-                Log.d(TAG, "===== TESTE TOP TRACKS =====");
+            // TESTE 2 - ALBUM METADATA
+            Log.d(TAG, "===== TESTE ALBUM METADATA =====");
 
-                api.obtainTopTracks(artist);
+            api.obtainAlbumMetaData(album);
 
-                List<Track> topTracks = artist.getTopTracks();
+            Log.d(TAG, "Album ID: " + album.getAlbumID());
+            Log.d(TAG, "Description: " +
+                    album.getAlbumDescription());
+            Log.d(TAG, "Cover: " +
+                    album.getCoverURL());
 
-                if (topTracks != null && !topTracks.isEmpty()) {
 
-                    for (Track track : topTracks) {
+            // TESTE 3 - TOP TRACKS
+            Log.d(TAG, "===== TESTE TOP TRACKS =====");
 
-                        Log.d(TAG, "--------------------");
+            api.obtainTopTracks(artist);
 
-                        Log.d(TAG, "Track: " +
-                                track.getTrackName());
+            List<Track> topTracks = artist.getTopTracks();
 
-                        Log.d(TAG, "Track ID: " +
-                                track.getTrackID());
+            if (topTracks != null && !topTracks.isEmpty()) {
 
-                        Log.d(TAG, "Album: " +
-                                track.getAlbumName());
+                for (Track track : topTracks) {
 
-                        Log.d(TAG, "Album ID: " +
-                                track.getAlbumID());
+                    Log.d(TAG, "--------------------");
 
-                        Log.d(TAG, "Artist: " +
-                                track.getArtistName());
+                    Log.d(TAG, "Track: " +
+                            track.getTrackName());
 
-                        Log.d(TAG, "Artist ID: " +
-                                track.getArtistID());
-                    }
+                    Log.d(TAG, "Track ID: " +
+                            track.getTrackID());
 
-                } else {
-                    Log.d(TAG, "Não foram encontradas Top Tracks.");
+                    Log.d(TAG, "Album: " +
+                            track.getAlbumName());
+
+                    Log.d(TAG, "Album ID: " +
+                            track.getAlbumID());
+
+                    Log.d(TAG, "Artist: " +
+                            track.getArtistName());
+
+                    Log.d(TAG, "Artist ID: " +
+                            track.getArtistID());
                 }
 
-                Log.d(TAG, "===== TESTES TERMINADOS =====");
-
-            } catch (Exception e) {
-                Log.e(TAG, "Erro durante os testes", e);
+            } else {
+                Log.d(TAG, "Não foram encontradas Top Tracks.");
             }
 
-        }).start();
+            Log.d(TAG, "===== TESTES TERMINADOS =====");
+
+        } catch (Exception e) {
+            Log.e(TAG, "Erro durante os testes", e);
+        }
     }
 }

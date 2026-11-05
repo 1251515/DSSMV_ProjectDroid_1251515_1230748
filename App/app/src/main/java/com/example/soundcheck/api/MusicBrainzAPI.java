@@ -266,7 +266,7 @@ public class MusicBrainzAPI {
 
             try {
                 JSONObject jsonResponse = new JSONObject(response.toString());
-                JSONArray artists = jsonResponse.getJSONArray("artists");
+                JSONArray artists = jsonResponse.optJSONArray("artists");
 
 
                 for (int i = 0; i < artists.length(); i++) {
