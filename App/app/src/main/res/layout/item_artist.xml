@@ -17,12 +17,36 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Artist name" />
+        
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
         <TextView
                 android:id="@+id/txtArtistType"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Artist type" />
+                android:text="Artist type"
+                android:textSize="12sp" />
+
+        <TextView
+                android:id="@+id/txtArtistSeparator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" · "
+                android:textSize="12sp"
+                android:textColor="#777777" />
+
+        <TextView
+                android:id="@+id/txtArtistGenres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Genres"
+                android:textSize="12sp" />
+
+        </LinearLayout>
 
     </LinearLayout>
 
@@ -32,6 +56,7 @@
             android:layout_height="wrap_content"
             android:text="›"
             android:textSize="24sp" />
+
 
 </LinearLayout>
 

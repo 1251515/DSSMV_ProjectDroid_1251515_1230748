@@ -1,4 +1,7 @@
 package com.example.soundcheck.UI;
 
-public class ArtistsDetailsActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class ArtistsDetailsActivity extends AppCompatActivity {
+
 }
