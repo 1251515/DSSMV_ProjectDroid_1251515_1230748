@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
                     ArtistsDetailsActivity.class
             );
 
-            intent.putExtra("artist_id", artist.getId());
-            intent.putExtra("artist_name", artist.getName());
+            intent.putExtra("artistID", artist.getId());
+            intent.putExtra("artistName", artist.getName());
 
             startActivity(intent);
 
